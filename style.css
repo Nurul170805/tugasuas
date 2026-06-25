@@ -41,11 +41,11 @@ button {
   color: white;
 }
 
-.btn-Total {
+.btn-count {
   background-color: blue;
 }
 
-.btn-Reset {
+.btn-clear {
   background-color: pink;
 }
 
