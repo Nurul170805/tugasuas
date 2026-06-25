@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 450px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-Total {
+  background-color: blue;
+}
+
+.btn-Reset {
+  background-color: pink;
+}
+
+#error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#hasil {
+  margin-top: 20px;
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 8px;
+}
